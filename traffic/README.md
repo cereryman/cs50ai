@@ -33,7 +33,7 @@ From here, I found it difficult to  improve the accuracy, this led me to search 
 
 *Note: I also realized that I had forgotten to restore the dropout to 0.5. I promptly did so...*
 
-6. According to reference #1, the best way reduce error is a combination of dropout max_norm. This was implemented as per reference #2. I also restored the dropout to 0.5. → This led to a small improvement.
+6. According to reference #1, the best way reduce error is a combination of dropout and max_norm. This was implemented as per reference #2. I also restored the dropout to 0.5. → This led to a small improvement.
 7. Tried batch normalization as per reference #3 → This provided another small improvement.
 
 ## Summary of Results ##
